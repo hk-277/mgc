@@ -1,0 +1,204 @@
+h1 {
+	display: inline-block;
+	Color: #ff69b4;
+	font-family:Lucida Handwriting;
+	font-size:25px;
+	margin-left: 200px;
+}
+h2 {
+	display: inline-block;
+	Color: #ff69b4;
+	font-family:Lucida Handwriting;
+	font-size:50px;
+	margin-left: 200px;
+}
+h3 {
+	Color: Black;
+	font-family:Lucida Handwriting;
+	font-size:20px;
+}
+h4{
+	display: inline-block;
+	Color: black;
+	font-family:Lucida Handwriting;
+	font-size:20px;
+	margin-left: 50px;
+}
+h6 {
+	display: inline-block;
+	text-align: top-Left;
+	font-family:Bahnschrift SemiBold;
+	font-size:15px;
+	margin-left: 10px;
+}
+.navbar {
+	background: #ff69b4;
+	height: 80px;
+	width: 100%;
+}
+.navbar ul{
+	float: Left;
+	margin: 0;
+	padding: 0;
+}
+.navbar li{
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 340px;
+	font-family: Arial Black;
+}
+.navbar li a{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 14px 16px;
+
+}
+
+nav {
+	position: relative;
+	z-index: 1;
+}
+p {
+	Color: Black;
+	font-family: arial;
+	font-size:25px;
+	margin-left: 200px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+#orderForm {
+    margin-top: 20px;
+}
+
+#div {
+
+	flex-wrap: wrap;
+	display: grid;
+	max-width: 1280px;
+	gap: 80px;
+	margin: 80px auto;
+	padding: 80px;
+	justify-items: center;
+	align-items: center;
+	display: block;
+	object-fit: cover;
+	flex: 0;
+}
+
+.registration-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+}
+.registration-form h4 {
+	margin-top: 250px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.registration-form p1 {
+	font-size: 20px;
+}
+
+.registration-form input {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	padding: 15px 10px;
+}
+.registration-form button {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin: 20px 0;
+}
+.registration-form button:hover {
+	color: pink;
+}
+.p2 {
+	font-family: Times New Roman;
+	font-size: 30px;
+	margin-left: 300px;
+}
+.Login-form {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+}
+.Login-form p2 {
+	font-size: 20px;
+}
+.Login-form input {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	padding: 15px 10px;
+}
+.Login-form h4 {
+	margin-top: 250px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.Login-form  button {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin: 20px 0;
+}
+.Login-form button:hover {
+	color: pink;
+}
+.pink-button {
+  /* Button appearance */
+  background-color: #ff69b4; /* Deep Pink */
+  color: white; /* White text for contrast */
+  border: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px; /* Nice rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  letter-spacing: 0.5px;
+}
+
+/* Hover and Active effects for a dynamic feel */
+.pink-button:hover {
+  background-color: #ff47a3; /* Lighter/Brighter pink on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly bigger shadow */
+  transform: translateY(-2px); /* Lift the button slightly */
+}
+
+.pink-button:active {
+  background-color: #e04192; /* Darker pink when pressed */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transform: translateY(0); /* Press down effect */
+}
+
